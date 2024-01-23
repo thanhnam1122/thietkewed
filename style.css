@@ -1,18 +1,36 @@
-.nd {
-    width: 1100px;
-    height: 250px;
-    background-color: #d6b5b5;
-    border: 2px dashed black;
-    background-position: center;
-    padding-left: 10px;
-    box-sizing: border-box;
-    margin: 0 auto;
-}
-
 body {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
+    height: 50vh;
+    margin: 20px;
+}
+
+.nd1{
+    color: blue;
+    margin-right: 10px;
+    text-align: end;
+    text-decoration: none;
+}
+
+.nd2{
+    color: blue;
+    margin-right: 10px;
+    text-align: end;
+    text-decoration: none;
+}
+.ul1{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+/* Thay đổi điểm chấm của ul2 thành hình ảnh */
+ul.ul2 {
+    list-style-type: none; /* Loại bỏ điểm chấm mặc định */
+    padding-left: 20px; /* Để giữ khoảng cách giữa hình ảnh và văn bản */
+}
+
+ul.ul2 li {
+    background: url('images.jpg') no-repeat 0 50%; /* Đường dẫn đến hình ảnh của bạn */
+    padding-left: 25px; /* Khoảng cách giữa hình ảnh và văn bản */
+    background-size: 16px; /* Điều chỉnh kích thước của hình ảnh */
 }
